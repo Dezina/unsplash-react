@@ -52,13 +52,13 @@ const FirstNav = () => (
         </li>
       
         <li class="nav-item">
-        <a class="nav-link" href="/following" style={{textTransform: "capitalize", color: "#000", fontSize: "15px"}}>Advertise</a>
+        <a class="nav-link text-capitalize fs-6" href="/following">Advertise</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/following" style={{textTransform: "capitalize", color: "#000", fontSize: "15px"}}>Blog</a>
+        <a class="nav-link text-capitalize fs-6" href="/following">Blog</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link" href="/following" style={{textTransform: "capitalize", color: "#000", fontSize: "15px"}}>Unsplash+</a>
+        <a class="nav-link text-capitalize fs-6" href="/following">Unsplash+</a>
         </li>
         <li class="nav-item">
         <Button>Submit a photo</Button>

@@ -15,11 +15,6 @@ const { Option } = Select;
 
 const Searchbar2 = ({searchtext, onChangeSearch, onSelect}) => {
 
-  // const [searchtext, setSearchText] = useState();
-  // const onChangeSearch = (newValue) => {
-  //   setSearchText(newValue);
-  // };
-
      // redux actions & states //////////////////////////
      const dispatch = useDispatch();
 
@@ -34,11 +29,15 @@ const Searchbar2 = ({searchtext, onChangeSearch, onSelect}) => {
 console.log("collections", collections)
 
   return (
-    <>
     <TreeSelect
     showSearch
     style={{
       width: '100%',
+      maxWidth: "700px", 
+      background: "#D3D3D3",
+      paddingLeft: "0px",
+      paddingRight: "0px",
+      marginLeft: "-50px"
     }}
     value={searchtext}
     dropdownStyle={{
@@ -53,10 +52,8 @@ console.log("collections", collections)
     treeData={collections}
     onSelect={(o, key) => {
       onSelect(key)
-      //console.log("O", o, key);
     }}
   />
-    </>
   )
 }
 export default Searchbar2;

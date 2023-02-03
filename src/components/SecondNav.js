@@ -29,16 +29,12 @@ return(
             scrollButtons="auto"
             aria-label="scrollable auto tabs example"
         >
-            <Tab label="Editorial" style={{textTransform: "capitalize", color: "#000"}} >
-              <li className="nav-item">
-              <a className="nav-link" href="/editorial" style={{fontFamily: "sans-serif"}}>Editorial</a>
-              </li>
-            </Tab>
-            <Tab label="Following" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Following</a>
-              </li>
-            </Tab>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/editorial">Editorial</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/following">Following</a>
+          </li>
         </Tabs>
 
         </Box>
@@ -50,56 +46,36 @@ return(
             scrollButtons="auto"
             aria-label="scrollable auto tabs example"
         >
-            <Tab label="Wallpapers" style={{textTransform: "capitalize", color: "#000"}}>
-              <li className="nav-item">
-              <a className="nav-link" href="/following">Wallpapers</a>
-              </li>
-            </Tab>
-            <Tab label="3D Renders" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">3D Renders</a>
-              </li>
-            </Tab>
-            <Tab label="Travel" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Travel</a>
-              </li>
-            </Tab>
-            <Tab label="Nature" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Nature</a>
-              </li>
-            </Tab>
-            <Tab label="Street Photography" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Street Photography</a>
-              </li>
-            </Tab>
-            <Tab label="Experimental" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Experimental</a>
-              </li>
-            </Tab>
-            <Tab label="Textures & Patterns" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Textures & Patterns</a>
-              </li>
-            </Tab>
-            <Tab label="Animals" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Animals</a>
-              </li>
-            </Tab>
-            <Tab label="Architecture & Interiors" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Architecture & Interiors</a>
-              </li>
-            </Tab>
-            <Tab label="Fashion & Beauty" style={{textTransform: "capitalize", color: "#000"}}>
-              <li class="nav-item">
-              <a class="nav-link" href="/following">Fashion & Beauty</a>
-              </li>
-            </Tab>
+          <li class="nav-item p-1">
+          <a class="nav-link" href="/new">Wallpapers</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">3D Renders</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Travel</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Nature</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Street Photograph</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Experimental</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Textures & Patterns</a>
+          </li>
+          <li class="nav-item p-1 text-capitalize fs-6">
+          <a class="nav-link" href="/new">Animals</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Architecture & Interiors</a>
+          </li>
+          <li class="nav-item p-1">
+          <a class="nav-link text-capitalize fs-6" href="/new">Fashion & Beauty</a>
+          </li> 
         </Tabs>
         </Box>
       </ul>

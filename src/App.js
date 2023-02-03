@@ -4,18 +4,20 @@ import Editorial from "./components/Editorial";
 import Following from "./components/Following";
 import FirstNav from "./components/FirstNav";
 import SecondNav from "./components/SecondNav";
+import New from "./components/New";
 
 function App() {
   return (
-    <BrowserRouter>
+  <BrowserRouter>
     <FirstNav/>
    <SecondNav />
    <Switch>
     <Route exact path="/" component={Home}/>
     <Route exact path="/editorial" component={Editorial} />
     <Route exact path="/following" component={Following} />
+    <Route exact path="/new" component={New} />
    </Switch>
-    </BrowserRouter>
+  </BrowserRouter>
   );
 }
 
