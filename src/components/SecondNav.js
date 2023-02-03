@@ -38,6 +38,7 @@ return(
         </Tabs>
 
         </Box>
+        <div style={{borderRight: "2px solid gray", height: "25px", marginTop: "15px", marginLeft: "20px"}}></div>
         <Box sx={{ maxWidth: 1100, bgcolor: 'background.paper' }}>
         <Tabs
             value={tab}
