@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Box from '@mui/material/Box';
 import { Image } from 'antd';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
@@ -32,12 +31,6 @@ export default function SearchImageList({collection}) {
               setHoverid(null)
           }}
           >
-                {/* <img
-                src={item?.urls?.raw}
-                srcSet={item?.urls?.small}
-                alt={item.title}
-                loading="lazy"
-                /> */}
                  <Image
                   src={item?.urls?.raw}
                 />

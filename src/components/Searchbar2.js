@@ -1,17 +1,8 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import { useSelector, useDispatch } from "react-redux"
 import { getCollections } from '../redux/actions/test.action';
-import {
-    BellFilled,
-    UserOutlined,
-    CameraOutlined,
-    MenuOutlined,
-    SearchOutlined
-   } from '@ant-design/icons';
-import { red } from '@mui/material/colors';
-import { Cascader, Input, Select, Space, TreeSelect } from 'antd';
+import { TreeSelect } from 'antd';
 
-const { Option } = Select;
 
 const Searchbar2 = ({searchtext, onChangeSearch, onSelect}) => {
 
@@ -25,8 +16,6 @@ const Searchbar2 = ({searchtext, onChangeSearch, onSelect}) => {
      const { collections } = useSelector((state) => state.faq);
  
      //////////////////////////////////////////////////
-
-console.log("collections", collections)
 
   return (
     <TreeSelect

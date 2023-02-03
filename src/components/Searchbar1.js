@@ -1,10 +1,7 @@
-import React, {useState} from "react";
-import { Cascader, Input, Select, Space, TreeSelect } from 'antd';
+import React from "react";
+import {Input, Select} from 'antd';
 import {
-    BellFilled,
-    UserOutlined,
     CameraOutlined,
-    MenuOutlined,
     SearchOutlined
    } from '@ant-design/icons';
 
@@ -13,7 +10,6 @@ const { Option } = Select;
 const selectBefore = (
   <Select 
   suffixIcon={<SearchOutlined style={{fontSize: "22px"}}/>}
-//   style={{ width: 500, heigth: 500 }}
    >
     <Option value="http://">http://</Option>
     <Option value="https://">https://</Option>
