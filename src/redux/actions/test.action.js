@@ -39,6 +39,7 @@ export const getCollections = () => async (dispatch) => {
                         value: item.title,
                         title: item.title
                   })
+                  return newArray;
                 })
                
             dispatch({type: DISPLAY_COLLECTIONS, payload: newArray });

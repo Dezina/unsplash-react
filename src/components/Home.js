@@ -19,7 +19,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(getFaqs());
-}, [])
+}, [dispatch])
 
   const onChangeSearch = (newValue) => {
     

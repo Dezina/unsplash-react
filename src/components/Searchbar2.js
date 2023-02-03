@@ -11,7 +11,7 @@ const Searchbar2 = ({searchtext, onChangeSearch, onSelect}) => {
 
      useEffect(() => {
          dispatch(getCollections());
-     }, [])
+     }, [dispatch])
  
      const { collections } = useSelector((state) => state.faq);
  
